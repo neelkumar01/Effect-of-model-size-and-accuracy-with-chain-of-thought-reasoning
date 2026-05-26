@@ -6,16 +6,21 @@ The core idea is that few shot CoT prompting providing a model with a handful of
 
 
 
-### Models Tested
+### Models Tested / To be Tested
 
-| Model | Parameters | Type |
-|---|---|---|
-| Flan-T5 Small | ~80M | Encoder-Decoder |
-| Flan-T5 Base | ~250M | Encoder-Decoder |
-| Flan-T5 Large | ~780M | Encoder-Decoder |
-| Mistral 7B Instruct | ~7B | Decoder-only (Instruct) |
-
-
+| Model Name | Parameters |
+|---|---|
+| Flan-T5 Small | 80M | 
+| Flan-T5 Base | 250M | 
+| Flan-T5 Large | 780M | 
+| Qwen2.5 0.5B | 0.5B | 
+| Gemma 2 2B | 2B | 
+| LLaMA 3.2 3B | 3B | 
+| Phi-3 Mini | 3.8B | 
+| Mistral 7B Instruct | 7B | 
+| Qwen2.5 7B | 7B | 
+| DeepSeekMath 7B | 7B | 
+| Qwen2.5-Math 7B | 7B | 
 
 ### Dataset — GSM8K
 
@@ -44,7 +49,7 @@ A: Jake read 5 pages on Monday and 7 on Tuesday. So, 5 + 7 = 12. The answer is 1
 
 
 
-### Results
+### Results (More coming soon)
 
 | Model | Accuracy (with CoT) |
 |---|---|
