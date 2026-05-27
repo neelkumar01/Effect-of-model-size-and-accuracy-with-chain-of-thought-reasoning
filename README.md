@@ -4,7 +4,7 @@
 
 The core idea is that few shot CoT prompting providing a model with a handful of example problems that include intermediate reasoning steps can dramatically unlock a model's problem-solving capability. But the key finding, popularized by Google's 2022 "Chain of Thought Prompting Elicits Reasoning in Large Language Models" paper, is that this ability is not uniformly distributed across model sizes. It appears to be an emergent property: small and medium models show little to no benefit from CoT prompts, while very large models (typically 100B+ parameters) suddenly exhibit strong performance gains
 
-
+<img src="output.png" alt="Output image" width="650">
 
 ### Models Tested / To be Tested
 
